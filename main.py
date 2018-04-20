@@ -25,7 +25,7 @@ def scale_stick(value):
             # stop = True
     # 
 
-    class Razg():
+class Razg():
     def __init__(self):
         self.m_l = ev3.LargeMotor(ev3.OUTPUT_A)
         self.m_m = ev3.MediumMotor(ev3.OUTPUT_D)
